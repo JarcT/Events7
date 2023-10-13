@@ -1,0 +1,11 @@
+.event-legend{
+  display: grid;
+  grid-template-columns: 1fr .5fr  .5fr;
+  width: 80%;
+  padding: 0 .5rem;
+}
+
+.events-container{
+  width: 80%;
+  margin-top: .5rem;
+}

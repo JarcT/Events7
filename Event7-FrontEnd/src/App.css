@@ -1,0 +1,24 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gabarito:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gabarito', sans-serif;
+}
+
+.main-container {
+  max-width: 900px;
+  min-height: 90vh;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+
+
+

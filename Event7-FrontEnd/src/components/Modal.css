@@ -1,0 +1,61 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: #fff;
+    max-width: 1200px;
+    border-radius: .5rem;
+}
+
+.close-modal{
+    position: relative;
+    display: inline-block;
+    left: 92%;
+    font-size: 2rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+form{
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#title{
+    align-self: center;
+    padding: .2rem;
+    font-size: 1.5rem;
+}
+
+.name-input{
+    margin-left: .3rem;
+}
+
+textarea{
+    display: block;
+    margin-top: .2rem;
+}
+
+.create-event{
+    color: #3D9945;
+}
+
+.update-event{
+    color: orange;
+}
+
+.error{
+    align-self: center;
+    color: red;
+}

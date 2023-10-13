@@ -1,0 +1,12 @@
+.logo{
+  color: #3D9945;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+header{
+  width: 80%;
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
